@@ -1,0 +1,87 @@
+  501  git clone https://github.com/prasad-engr/sources.git
+  502  ls
+  503  cd sources/
+  504  ls
+  505  ls -l
+  506  unzip Linux.zip 
+  507  ls
+  508  ls -l
+  509  cat history.txt
+  510  ls 
+  511  cat README.md 
+  512  vi README.md 
+  513  git branch
+  514  git status
+  515  git add .
+  516  git status
+  517  git commit -m "Discussed with pavan"
+  518  git log
+  519  git log --oneline
+  520  git log --twoline
+  521  git log --oneline
+  522  git log --oneline --reverse
+  523  git push origin master
+  524  ls
+  525  cd ..
+  526  mkdir BBB
+  527  cd BBB/
+  528  ls
+  529  git clone https://github.com/prasad-engr/Drone-BBB.git
+  530  ls
+  531  cd Drone-BBB/
+  532  ls
+  533  cat README.md 
+  534  ls -l
+  535  ls -al
+  536  cd .git/
+  537  ls
+  538  ls -l
+  539  cd branches/
+  540  ls
+  541  ls -la
+  542  cd ../..
+  543  ls
+  544  touch file.c
+  545  vi file.c 
+  546  ls -l
+  547  gcc file.c 
+  548  ls
+  549  ./a.out 
+  550  rm a.out 
+  551  ls
+  552  git branch
+  553  git status
+  554  git add .
+  555  git status
+  556  git commit -m "initial commit"
+  557  git push origin master
+  558  git push origin main
+  559  git status
+  560  git --help
+  561  git branch feature
+  562  ls
+  563  ls -l
+  564  git branch
+  565  git checkout feature
+  566  ls
+  567  git branch
+  568  ls
+  569  git checkout main
+  570  git branch
+  571  git checkout feature
+  572  ls
+  573  vi file.c 
+  574  git branch
+  575  git status
+  576  git add .
+  577  git commit -m "Debug"
+  578  git checkout main
+  579  ls
+  580  ls -l
+  581  cat file.c 
+  582  git merge feature
+  583  cat file.c 
+  584  git push  origin main
+  585  git status
+  586  history
+  587  history > history.txt
